@@ -2,13 +2,18 @@
 layout: default
 ---
 
-<div class="post-header">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <p class="post-meta" style="color: #888; font-size: 0.9em;">
+<div class="post-header" style="margin-bottom: 40px;">
+  
+  <h1 style="color: #eaeaea !important; font-size: 32px; margin-top: 0; line-height: 1.2;">
+    {{ page.title }}
+  </h1>
+
+  <p class="post-meta" style="color: #888; font-size: 14px; margin-top: 5px;">
     {{ page.date | date: "%Y-%m-%d" }}
   </p>
+
 </div>
 
-<hr>
+<hr style="border: 0; border-bottom: 1px dashed #444; margin-bottom: 30px;">
 
 {{ content }}
