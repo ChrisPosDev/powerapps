@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "TEST: Pełny przegląd możliwości motywu Hacker"
 date: 2023-10-28
 ---
