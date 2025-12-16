@@ -10,7 +10,14 @@ header h1::before {
   display: none !important;
 }
 
-/* Ukrywa przycisk GitHub (dla pewności, jeśli wróciłbyś do oryginalnego HTML) */
+/* Ukrywa przycisk GitHub */
 .github-corner, header a.btn {
   display: none !important;
+}
+
+/* Naprawa wcięcia podtytułu (H2) żeby był równo z H1 */
+header h2 {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left; 
 }
