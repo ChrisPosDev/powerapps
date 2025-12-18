@@ -43,7 +43,13 @@ Set the Text property of your new label to the following formula:
 | 'Example SharePoint List' | The name of your connected SharePoint list. |
 | "YourColumnName" | The internal name of the specific column in that list. |
 
-### 3. The "Gotcha": Updating in Real-Time
+### 3. Enforce the Limit (The Input Control)
+Don't just *show* the limit—*enforce* it! To physically prevent users from typing more characters than the database allows, you should apply the same logic to the input box itself.
+
+Select your **Text Input** control, find the `MaxLength` property, and set it to:
+`DataSourceInfo([@'Example SharePoint list'], DataSourceInfo.MaxLength, YourColumnName)`
+
+### 4. The "Gotcha": Updating in Real-Time
 By default, Power Apps might not update the character count until the user clicks out of the box. To make the counter update while the user is typing, you need to change a specific setting on the Text Input control.
 
 Find the **TriggerOutput** property. This property determines when the control updates its **Value** and triggers OnChange. Set it to **Keypress**.
