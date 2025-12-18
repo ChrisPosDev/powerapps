@@ -25,6 +25,18 @@ This simple counter plays a vital role in Jakob Nielsen’s Usability Heuristics
 
 Adding this to your Canvas App is straightforward. Here is the step-by-step guide to making it dynamic and maintenance-free.
 
+Prerequisite: Enable Modern Controls This guide uses the Modern Text Input control. While these are becoming the standard, they might not be enabled by default in your environment or older apps.
+
+Before you begin, ensure you have access to them:
+
+Go to Settings > Updates.
+
+Search for "Modern controls and themes".
+
+Ensure the toggle is set to On.
+
+Note: If you are using Classic Controls, the logic remains similar, but you will use .Text instead of .Value and the DelayOutput property set to false instead of TriggerOutput.
+
 ### 1. Add the Label
 First, place a standard Text Label control immediately below your Text Input control.
 
