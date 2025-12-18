@@ -19,8 +19,7 @@ This simple counter plays a vital role in Jakob Nielsen’s Usability Heuristics
 
 > Users should never have to guess how much content they can type into a field. By providing a counter (e.g., "0/255"), you offer immediate feedback. This prevents frustration by letting the user know their limits before they hit the save button and trigger a validation error.
 
-![Character Limit Indicator Example]({{ site.baseurl }}/assets/img/1.png)
-*Figure 1: Screenshot of the text input with the 0/255 counter visible*
+![Character Limit Indicator Example]({{ site.baseurl }}/assets/img/1.png)<br> *Figure 1: Screenshot of the text input with the 0/255 counter visible*
 
 ---
 
@@ -36,7 +35,7 @@ Instead of hardcoding a number (like "255"), we want to fetch the limit directly
 
 Set the Text property of your new label to the following formula:
 
-`Len(inp\_NewName.Value) \ \& \ "/" \ \& \ DataSourceInfo([@'Example SharePoint List'], DataSourceInfo.MaxLength, "YourColumnName")`
+`Len(inp_NewName.Value)  & "/" &  DataSourceInfo([@'Example SharePoint list'], DataSourceInfo.MaxLength, itemName)`
 
 **Let’s break down the variables:**
 
