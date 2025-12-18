@@ -17,7 +17,7 @@ This simple counter plays a vital role in **Jakob Nielsen’s Usability Heuristi
 
 Users should never have to guess how much content they can type into a field. By providing a counter (e.g., "0/255"), you offer immediate feedback. This prevents frustration by letting the user know their limits *before* they hit the save button and trigger a validation error.
 
-![Character Limit Indicator Example](assets/img/1.png)
+![Character Limit Indicator Example](/assets/img/1.png)
 *Figure 1: Screenshot of the text input with the 0/255 counter visible*
 
 ---
