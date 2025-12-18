@@ -17,7 +17,7 @@ This simple counter plays a vital role in Jakob Nielsen’s Usability Heuristics
 
 > Users should never have to guess how much content they can type into a field. By providing a counter (e.g., "0/255"), you offer immediate feedback. This prevents frustration by letting the user know their limits before they hit the save button and trigger a validation error.
 
-![Character Limit Indicator Example]({{ site.baseurl }}/assets/img//2025-12-18-Mastering-UX-in-Power-Apps:-Building-a-Dynamic-Character-Limit-Counter/Animation.gif)<br> *Figure 1: Screenshot of the text input with the 0/255 counter visible*
+![Character Limit Indicator Example]({{ site.baseurl }}/assets/img//2025-12-18-Mastering-UX-in-Power-Apps-Building-a-Dynamic-Character-Limit-Counter/Animation.gif)<br> *Figure 1: Screenshot of the text input with the 0/255 counter visible*
 
 ---
 
