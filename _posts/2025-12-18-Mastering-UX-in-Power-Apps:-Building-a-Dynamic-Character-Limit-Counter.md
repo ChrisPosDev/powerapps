@@ -46,7 +46,7 @@ Set the Text property of your new label to the following formula:
 ### 3. Enforce the Limit (The Input Control)
 Don't just *show* the limit—*enforce* it! To physically prevent users from typing more characters than the database allows, you should apply the same logic to the input box itself.
 
-Select your **Text Input** control, find the `MaxLength` property, and set it to:
+Select your **Text Input** control, find the `MaxLength` property, and set it to:<br>
 `DataSourceInfo([@'Example SharePoint list'], DataSourceInfo.MaxLength, YourColumnName)`
 
 ### 4. The "Gotcha": Updating in Real-Time
